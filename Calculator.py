@@ -3,6 +3,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Bruno's Calculator")
+root.configure(bg="black")
 
 operation_number = 0
 current_number_sum = 0
